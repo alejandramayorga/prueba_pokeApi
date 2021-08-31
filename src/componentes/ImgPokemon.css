@@ -1,0 +1,179 @@
+
+
+body {
+  background: linear-gradient(to bottom, rgba(140,122,122,1) 0%, rgba(175,135,124,1) 65%, rgba(175,135,124,1) 100%) fixed;
+  background: url('https://assets.pokemon.com//assets/cms2/img/misc/virtual-backgrounds/pokemon/detective-pikachu.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font: 14px/20px ,Arial, sans-serif;
+  color: #9E9E9E;
+  margin-top: 30px;
+  place-items: center;
+}
+
+
+.pokemon-card_container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+
+
+
+.pokemon-card {
+  background: white;
+  width: 400px;
+  display: inline-block;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.pokemon-card__image {
+
+  height: 250px;
+  
+  margin-bottom: 35px;
+}
+
+.pokemon-card__image_i{
+
+    width: 400px;
+    position: absolute;    
+    top: -65px;
+    left: -70px;
+
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+}
+
+.pokemon-card__peso {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+
+
+.pokemon-card__nombre {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.pokemon-card__descricion {
+    padding: 10px;
+    margin-bottom: 30px; 
+    margin-right: 20px; 
+    margin-left: -10px; 
+  }
+
+.stats {
+    column-count:3;
+    column-gap: 1em;
+    column-rule: 1px solid #bbb;
+
+}
+
+
+[class*="pokemon-"] {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 600px) {
+    
+body {
+    background: linear-gradient(to bottom, rgba(140,122,122,1) 0%, rgba(175,135,124,1) 65%, rgba(175,135,124,1) 100%) fixed;
+    background: url('https://assets.pokemon.com//assets/cms2/img/misc/virtual-backgrounds/pokemon/detective-pikachu.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font: 14px/20px ,Arial, sans-serif;
+    color: #9E9E9E;
+    margin-top: 30px;
+    place-items: center;
+  }
+  
+  
+  .pokemon-card_container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+  }
+  
+  
+  
+  .pokemon-card {
+    background: white;
+    width: 400px;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+  }
+  
+  .pokemon-card__image {
+  
+    height: 230px;
+    
+    margin-bottom: 35px;
+  }
+  
+  .pokemon-card__image_i{
+  
+      width: 400px;
+      position: absolute;    
+      top: -65px;
+      left: -70px;
+  
+  }
+  
+  .box img {
+      width: 100%;
+      height: 100%;
+  }
+  
+  .pokemon-card__peso {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 3px;
+  }
+  
+  
+  
+  .pokemon-card__nombre {
+    font-size: 26px;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 5px;
+  }
+  
+  .pokemon-card__descricion {
+    padding: 10px;
+    margin-bottom: 30px; 
+    margin-right: 20px; 
+    margin-left: -10px; 
+  }
+  
+  .stats {
+      column-count:3;
+      column-gap: 1em;
+      column-rule: 1px solid #bbb;
+  
+  }
+  }
+
+
+
+

@@ -1,0 +1,106 @@
+.container {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background:#FFF;
+	margin-bottom:20px;
+}
+
+.wrapper {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+
+.logo {
+
+	font-size:50px;
+	line-height:200px;
+	float:left;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    height: 20vmin;
+    pointer-events: none;
+  
+}
+
+.nav {
+	float:right;
+	line-height:200px;
+}
+
+.menuH,
+.menuH_Abrir {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  z-index: 9999;
+  background: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.menuH .bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.menuH_abrir .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+  transform: rotate(-45deg) translate(-4px, 4px);
+}
+
+.menuH_abrir .bar2 {
+  opacity: 0;
+}
+
+.menuH_abrir .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px);
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+
+/* Menu */
+
+.menu {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 0px;
+}
+.menu ul {
+  position: relative;
+  top: 0px;
+  font-size: 24px;
+  padding: 0px;
+  color: black;
+}
+.menu li {
+  list-style: outside none none;
+  margin: 10px 0px;
+  padding: 0;
+  cursor: pointer;
+}
+.menu li:hover {
+  color: #ff0000;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .wrapper {
+      margin: 1em, 2em;
+      
+    }
+  }
+
